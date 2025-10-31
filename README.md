@@ -1,5 +1,4 @@
-````markdown
-# Hello – Petite application Java de bienvenue
+# Exercice 1 d'introduction à java
 
 Cette application Java très simple permet d’accueillir un utilisateur dans la console, de lui demander son nom et son prénom, puis d’afficher un message de bienvenue personnalisé.
 
@@ -24,7 +23,7 @@ Cette application Java très simple permet d’accueillir un utilisateur dans la
            System.out.println("Bienvenue " + firstname + " " + name);
        }
    }
-````
+
 
 4. Compilez le programme depuis un terminal à l’emplacement du fichier :
 
@@ -52,14 +51,6 @@ Cette application Java très simple permet d’accueillir un utilisateur dans la
    Bienvenue Marie Dupont
    ```
 
-## Règles du jeu
-
-Même si ce n’est pas vraiment un jeu, on peut considérer les “règles” suivantes :
-
-1. L’utilisateur doit **répondre aux questions dans l’ordre** (nom puis prénom).
-2. L’utilisateur doit **valider chaque réponse** en appuyant sur **Entrée**.
-3. Le programme **ne vérifie pas** si le champ est vide : il affichera quand même un message de bienvenue.
-4. Le programme s’arrête après avoir affiché le message final.
 
 ## Fonctionnalités
 
@@ -68,7 +59,6 @@ Même si ce n’est pas vraiment un jeu, on peut considérer les “règles” s
 * ✅ Demande du **nom** de l’utilisateur
 * ✅ Demande du **prénom** de l’utilisateur
 * ✅ Affichage d’un **message personnalisé** : `Bienvenue <prénom> <nom>`
-* 🧪 Facile à étendre (on peut ajouter l’âge, la langue, etc.)
 
 ## Structure du code
 
@@ -86,12 +76,3 @@ Même si ce n’est pas vraiment un jeu, on peut considérer les “règles” s
   4. Demander et lire le **prénom** (`firstname`).
   5. Afficher : `Bienvenue <prénom> <nom>`.
 
-Arborescence minimale :
-
-```text
-.
-└── Hello.java
-```
-
-```
-```
